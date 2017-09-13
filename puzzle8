@@ -1,0 +1,32 @@
+function downUntil() {
+    var count = 0;
+ while (count < 10) {
+   down();
+   count = count + 1;
+ }
+}
+
+function upUntil() {
+    var count = 0;
+ while (count < 10) {
+   up();
+   count = count + 1;
+ }
+}
+   
+  downUntil();
+  right();
+right();
+  upUntil();
+  right();
+  right();
+  downUntil();
+right();
+right();
+
+  upUntil();
+  right();
+  right();
+  downUntil();
+  right();
+up();
