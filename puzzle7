@@ -1,0 +1,29 @@
+function downUntil() {
+    var count = 0;
+  while (getColor() !="red") {
+  down();
+  }
+  }
+
+
+function upUntil() {
+  var count = 0;
+  while (getColor() !="red") {
+         up();}
+}
+
+
+downUntil();
+right();
+right();
+upUntil();
+right();
+right();
+downUntil();
+right();
+right();
+upUntil();
+right();
+right();
+downUntil();
+right();
