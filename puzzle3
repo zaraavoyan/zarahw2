@@ -1,0 +1,11 @@
+down();
+down();
+var FirstColor = getColor();
+down();
+down();
+down();
+right();
+setColor(FirstColor);
+right();
+right();
+up();
