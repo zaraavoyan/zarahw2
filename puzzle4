@@ -1,0 +1,20 @@
+function downThreeTimes() {
+ down();
+ down();
+ down();
+}
+downThreeTimes();
+down();
+right();
+var firstColor = getColor();
+down();
+setColor (firstColor);
+right();
+right();
+up();
+right();
+var SecondColor=getColor();
+down();
+setColor (secondColor);
+right();
+right();
